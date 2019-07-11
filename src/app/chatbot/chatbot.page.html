@@ -1,0 +1,32 @@
+<ion-content padding no-bounce>
+
+  <ion-grid>
+
+    <ion-row>
+
+      <ion-col size="12" no-padding>
+        <ion-button (click)="logout()" color="danger">
+          <ion-icon name="return-left" style="font-size:2em;"></ion-icon>
+        </ion-button>
+      </ion-col>
+
+      <ion-col size="12" class="ion-text-center">
+        <img src="../../assets/images/earthy.gif" />
+      </ion-col>
+
+      <ion-col size="12">
+        <div #chatArea id="chat-area"></div>
+      </ion-col>
+
+      <ion-col size="8">
+        <ion-input #userInput (keyup)="onKey($event)" id="user-input" type="text" placeholder="Tell me something!" required></ion-input>
+      </ion-col>
+
+      <ion-col size="4">
+        <ion-button (click)="send()" size="large">Send</ion-button>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>

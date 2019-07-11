@@ -1,0 +1,28 @@
+ion-content {
+  --background: url('../../assets/images/earth-background.png') 30% / cover no-repeat;
+  --color: white;
+}
+
+ion-button {
+  font-size: 1.5em;
+  font-weight: bold;
+  --border-color: #363;
+  --border-style: solid;
+  --border-width: 2px;
+  --border-radius: 10px;
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+.story-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10vw;
+  text-align: center;
+}
+
+.description {
+  font-size: 1.2em;
+  color: white;
+}

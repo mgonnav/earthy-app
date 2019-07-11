@@ -1,5 +1,7 @@
 {
   "name": "Earthy",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
